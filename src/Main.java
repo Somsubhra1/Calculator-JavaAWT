@@ -16,7 +16,7 @@ public class Main implements ActionListener {
         frm.setSize(400,300);
         frm.setLayout(null);
         frm.setVisible(true);
-        frm.setTitle("Calculator t");
+        frm.setTitle("Calculator");
 
         l=new Label("Calculator");
         l.setBounds(165, 40, 150, 20);
