@@ -15,7 +15,6 @@ public class Main implements ActionListener {
         frm=new Frame();
         frm.setSize(400,300);
         frm.setLayout(null);
-        frm.setVisible(true);
         frm.setTitle("Calculator");
 
         l=new Label("Calculator");
@@ -48,6 +47,8 @@ public class Main implements ActionListener {
         frm.add(btn2);
         frm.add(btn3);
         frm.add(btn4);
+
+        frm.setVisible(true);
 
         frm.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e) {
